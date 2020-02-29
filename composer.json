@@ -1,0 +1,39 @@
+
+{
+  "name": "asvvizit/etldevtcpdf-laravel",
+  "version": "1.0.1",
+  "description": "etldevtcpdf support for Laravel 6",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "keywords": [
+	"laravel",
+	"etldevtcpdf",
+	"tcpdf",
+	"pdf"
+  ],
+  "authors": [
+	{
+	  "name": "Sergey",
+	  "email": "asvvizit@gmail.com"
+	}
+  ],
+  "require": {
+	"illuminate/support": "^6.0",
+	"asvvizit/etldevtcpdf": "dev-master"
+  },
+  "autoload": {
+	"psr-4": {
+	  "asvvizit\\ETLDEVTCPDF\\": "src/"
+	}
+  },
+  "extra": {
+      "laravel": {
+          "providers": [
+              "asvvizit\\ETLDEVTCPDF\\EtlServiceProvider"
+          ],
+          "aliases": {
+              "PDF": "asvvizit\\ETLDEVTCPDF\\Facades\\ETLDEVTCPDF"
+          }
+      }
+  }
+}
