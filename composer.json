@@ -1,7 +1,7 @@
 
 {
   "name": "asvvizit/etldevtcpdf-laravel",
-  "version": "1.0.3",
+  "version": "1.0.1",
   "description": "etldevtcpdf support for Laravel 8",
   "minimum-stability": "stable",
   "license": "MIT",
@@ -18,8 +18,8 @@
 	}
   ],
   "require": {
-	"illuminate/support": "^8.22.1",
-	"asvvizit/etldevtcpdf": "dev-master"
+    "illuminate/support": "^6.0|^7.0|^8.0",
+	"asvvizit/etldevtcpdf": "^1.0.5|dev-master"
   },
   "autoload": {
 	"psr-4": {
