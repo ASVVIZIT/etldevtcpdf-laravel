@@ -1,5 +1,5 @@
 # Laravel 8.0 TCPDF
-[![Latest Stable Version](https://poser.pugx.org/elibyy/tcpdf-laravel/v/stable)](https://packagist.org/packages/elibyy/tcpdf-laravel) [![Total Downloads](https://poser.pugx.org/elibyy/tcpdf-laravel/downloads)](https://packagist.org/packages/elibyy/tcpdf-laravel) [![Latest Unstable Version](https://poser.pugx.org/elibyy/tcpdf-laravel/v/unstable)](https://packagist.org/packages/elibyy/tcpdf-laravel) [![License](https://poser.pugx.org/elibyy/tcpdf-laravel/license)](https://packagist.org/packages/elibyy/tcpdf-laravel)
+[![Latest Stable Version](https://poser.pugx.org/asvvizit/etldevtcpdf-laravel/1.0.0)](https://packagist.org/packages/asvvizit/etldevtcpdf-laravel/v/1.0.3) [![Total Downloads](https://poser.pugx.org/asvvizit/etldevtcpdf-laravel/downloads)](https://packagist.org/packages/asvvizit/etldevtcpdf-laravel) [![Latest Unstable Version](https://poser.pugx.org/asvvizit/etldevtcpdf-laravel/v/unstable)](https://packagist.org/packages/asvvizit/etldevtcpdf-laravel) [![License](https://poser.pugx.org/asvvizit/etldevtcpdf-laravel/license)](https://packagist.org/packages/asvvizit/etldevtcpdf-laravel)
 
 A simple [Laravel](http://www.laravel.com) service provider with some basic configuration for including the [TCPDF library](http://www.tcpdf.org/)
 
@@ -7,14 +7,14 @@ A simple [Laravel](http://www.laravel.com) service provider with some basic conf
 
 ## Installation
 
-The Laravel TCPDF service provider can be installed via [composer](http://getcomposer.org) by requiring the `elibyy/tcpdf-laravel` package in your project's `composer.json`. (The installation may take a while, because the package requires TCPDF. Sadly its .git folder is very heavy)
+The Laravel TCPDF service provider can be installed via [composer](http://getcomposer.org) by requiring the `asvvizit/etldevtcpdf-laravel` package in your project's `composer.json`. (The installation may take a while, because the package requires TCPDF. Sadly its .git folder is very heavy)
 
 Laravel 8.0+ will use the auto-discovery function.
 
 ```json
 {
     "require": {
-        "elibyy/tcpdf-laravel": "dev-master"
+        "asvvizit/etldevtcpdf-laravel": "dev-master"
     }
 }
 ```
@@ -25,7 +25,7 @@ If you don't use auto-discovery you will need to include the service provider / 
 ```php
 'providers' => [
     //...
-    Elibyy\TCPDF\ServiceProvider::class,
+    asvvizit\ETLDEVTCPDF\ServiceProvider::class,
 ]
 
 //...
