@@ -32,7 +32,7 @@ If you don't use auto-discovery you will need to include the service provider / 
 
 'aliases' => [
     //...
-    'PDF' => Elibyy\TCPDF\Facades\TCPDF::class
+    'PDF' => asvvizit\ETLDEVTCPDF\Facades\TCPDF::class
 ]
 ```
 
@@ -41,8 +41,8 @@ If you don't use auto-discovery you will need to include the service provider / 
 for lumen you should add the following lines:
 
 ```php
-$app->register(Elibyy\TCPDF\ServiceProvider::class);
-class_alias(Elibyy\TCPDF\Facades\TCPDF::class, 'PDF');
+$app->register(asvvizit\ETLDEVTCPDF\ServiceProvider::class);
+class_alias(asvvizit\ETLDEVTCPDF\Facades\TCPDF::class, 'PDF');
 ```
 
 That's it! You're good to go.
@@ -79,7 +79,7 @@ For a list of all available function take a look at the [TCPDF Documentation](ht
 Laravel-TCPDF comes with some basic configuration.
 If you want to override the defaults, you can publish the config, like so:
 
-    php artisan vendor:publish --provider="Elibyy\TCPDF\ServiceProvider"
+    php artisan vendor:publish --provider="asvvizit\ETLDEVTCPDF\ServiceProvider"
 
 Now access `config/tcpdf.php` to customize.
 
