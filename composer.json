@@ -1,7 +1,7 @@
 
 {
   "name": "asvvizit/etldevtcpdf-laravel",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "etldevtcpdf support for Laravel 8",
   "minimum-stability": "stable",
   "license": "MIT",

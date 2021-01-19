@@ -1,8 +1,8 @@
 {
   "name": "etldevtcpdf-laravel",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "etldevtcpdf support for Laravel 8",
-  "main": "index.js",
+  "stable": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
