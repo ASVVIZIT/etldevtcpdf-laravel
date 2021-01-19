@@ -19,7 +19,7 @@
   ],
   "require": {
     "illuminate/support": "^6.0|^7.0|^8.0",
-	"asvvizit/etldevtcpdf": "^1.0.5|dev-master"
+	"asvvizit/etldevtcpdf": "dev-master"
   },
   "autoload": {
 	"psr-4": {
