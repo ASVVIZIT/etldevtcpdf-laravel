@@ -1,5 +1,5 @@
 # Laravel 8.0 TCPDF
-[![Latest Stable Version](https://poser.pugx.org/asvvizit/etldevtcpdf-laravel/1.0.0)](https://packagist.org/packages/asvvizit/etldevtcpdf-laravel/v/1.0.3) [![Total Downloads](https://poser.pugx.org/asvvizit/etldevtcpdf-laravel/downloads)](https://packagist.org/packages/asvvizit/etldevtcpdf-laravel) [![Latest Unstable Version](https://poser.pugx.org/asvvizit/etldevtcpdf-laravel/v/unstable)](https://packagist.org/packages/asvvizit/etldevtcpdf-laravel) [![License](https://poser.pugx.org/asvvizit/etldevtcpdf-laravel/license)](https://packagist.org/packages/asvvizit/etldevtcpdf-laravel)
+[![Latest Stable Version](https://poser.pugx.org/asvvizit/etldevtcpdf-laravel/v/)](https://packagist.org/packages/asvvizit/etldevtcpdf-laravel/v/1.0.3) [![Total Downloads](https://poser.pugx.org/asvvizit/etldevtcpdf-laravel/downloads)](https://packagist.org/packages/asvvizit/etldevtcpdf-laravel) [![Latest Unstable Version](https://poser.pugx.org/asvvizit/etldevtcpdf-laravel/v/unstable)](https://packagist.org/packages/asvvizit/etldevtcpdf-laravel) [![License](https://poser.pugx.org/asvvizit/etldevtcpdf-laravel/license)](https://packagist.org/packages/asvvizit/etldevtcpdf-laravel)
 
 A simple [Laravel](http://www.laravel.com) service provider with some basic configuration for including the [TCPDF library](http://www.tcpdf.org/)
 
