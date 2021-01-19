@@ -1,6 +1,6 @@
 {
   "name": "etldevtcpdf-laravel",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "etldevtcpdf support for Laravel 8",
   "main": "index.js",
   "scripts": {
